@@ -16,7 +16,7 @@ spec:
     spec:
       containerConcurrency: 80
       containers:
-      - image: gcr.io/durable-stack-410709/gramai_app:latest
+      - image: gcr.io/macro-context-410815/gramai_app:latest
         name: app
         ports:
         - containerPort: 8080
